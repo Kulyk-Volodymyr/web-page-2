@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/variables-main-theme.css">
+  <link rel="stylesheet" href="./css/responsive-grid.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/aside.css">
+  <link rel="stylesheet" href="./css/modal.css">
+  <link rel="stylesheet" href="./css/variables-text.css">
+  <title>Lorem Ipsum</title>
+</head>
+<body>
+
+  <div id="modal-img">
+    <div id="modal-img-main">
+      <div id="modal-img-close">Close &#10006;</div>
+      <div id="modal-img-container">
+        <img id="modal-img-image" src="" alt="photo">
+      </div>
+    </div>
+  </div>
+  <div id="modal-article">
+    <div id="modal-article-main">
+      <div id="modal-article-close">Close &#10006;</div>
+      <div id="modal-article-container"></div>
+    </div>
+  </div>
+
+  <header>
+
+    <section id="header-main">
+      <div id="header-logo-aside">
+        <p>"Aenean commodo ligua eget dolor. Aenean massa."</p>
+        <p>Lorem Ipsum</p>
+      </div>
+      <div id="header-logo">
+        <a href="#header-main">
+          <h1>LOREM IPSUM</h1>
+          <hr>
+          <h2>Dolor Sit Amet Consectetur Adipisicing Elit</h2>
+        </a>
+        <div id="header-nav-button">
+          <div id="header-nav-button-border" class="nav-pointer-up">
+            <span>&#10140;</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="header-nav" class="hide-navbar">
+      <nav>
+        <span><a href="#main-section-1">Main1</a></span>
+        <span><a href="#main-section-2">Main2</a></span>
+        <span><a href="#main-section-3">Main3</a></span>
+        <span><a href="#main-aside-1">Aside1</a></span>
+        <span><a href="#main-aside-2">Aside2</a></span>
+        <span><a href="#footer-article-1">Footer</a></span>
+      </nav>
+      <div id="header-buttons">
+        <button id="button-light-theme" type="button" onclick="changeTheme('light')">Light Theme</button>
+        <button id="button-main-theme" type="button" onclick="changeTheme('main')" disabled>Main Theme</button>
+        <button id="button-dark-theme" type="button" onclick="changeTheme('dark')">Dark Theme</button>
+      </div>
+    </section>
+
+  </header>
+
+  <main>
+
+    <section id="main-section-1">
+      <article class="section-1-article">
+        <div class="s-1-header">
+          <h2>Perspiciatis praesentium velit</h2>
+          <hr>
+          <p>Voluptatum perspiciatis pariatur ratione aspernatur harum, eos ut?</p>
+        </div>
+        <div class="s-1-1-img">
+          <img src="./images/section-1/s1-1.jpg" alt="photo">
+        </div>
+        <div class="s-1-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+      </article>
+
+      <article class="section-1-article">
+        <div class="s-1-header">
+          <h2>Vero eligendi ducius eum</h2>
+          <hr>
+          <p>Eum eveniet qui voluptates eos unde obcaecati debitis repellat.</p>
+        </div>
+        <div class="s-1-2-img">
+          <img src="./images/section-1/s1-2.jpg" alt="photo">
+        </div>
+        <div class="s-1-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+      </article>
+
+      <article class="section-1-article">
+        <div class="s-1-header">
+          <h2>Eveniet molestias</h2>
+          <hr>
+          <p>Tenetur dolorem amet incidunt placeat quod, deserunt maxime repudiandae 
+            tempora aliquid nemo veritatis officiis dicta facere molestiae.</p>
+        </div>
+        <div class="s-1-1-img">
+          <img src="./images/section-1/s1-3.jpg" alt="photo">
+        </div>
+        <div class="s-1-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+      </article>
+
+      <article class="section-1-article">
+        <div class="s-1-header">
+          <h2>Placeat quod vel ratione soluta</h2>
+          <hr>
+          <p>Cupiditate natus harum temporibus voluptatem vero eligendi 
+            ducius eum, eveniet molestias.</p>
+        </div>
+        <div class="s-1-2-img">
+          <img src="./images/section-1/s1-4.jpg" alt="photo">
+        </div>
+        <div class="s-1-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="main-section-2">
+      <article class="section-2-article">
+        <div class="s-2-header">
+          <p>Praesentium velit</p>
+        </div>
+        <div class="s-2-img">
+          <img src="./images/section-2/s2-1.jpg" alt="photo">
+        </div>
+        <div class="s-2-text">
+          <p>Enium unde voluptas perspiciatis praesentium velit.</p>
+        </div>
+      </article>
+
+      <article class="section-2-article">
+        <div class="s-2-header">
+          <p>Natus harum</p>
+        </div>
+        <div class="s-2-img">
+          <img src="./images/section-2/s2-2.jpg" alt="photo">
+        </div>
+        <div class="s-2-text">
+          <p>Enium unde voluptas perspiciatis praesentium velit.</p>
+        </div>
+      </article>
+
+      <article class="section-2-article">
+        <div class="s-2-header">
+          <p>Eum eveniet qui</p>
+        </div>
+        <div class="s-2-img">
+          <img src="./images/section-2/s2-3.jpg" alt="photo">
+        </div>
+        <div class="s-2-text">
+          <p>Enium unde voluptas perspiciatis praesentium velit.</p>
+        </div>
+      </article>
+
+      <article class="section-2-article">
+        <div class="s-2-header">
+          <p>Tenetur dolorem</p>
+        </div>
+        <div class="s-2-img">
+          <img src="./images/section-2/s2-4.jpg" alt="photo">
+        </div>
+        <div class="s-2-text">
+          <p>Enium unde voluptas perspiciatis praesentium velit.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="main-section-3">
+      <article class="section-3-article">
+        <div class="s-3-header">
+          <p>Aliqua assumen</p>
+        </div>
+        <div class="s-3-img">
+          <img src="./images/section-3/s3-1.jpg" alt="photo">
+        </div>
+        <div class="s-3-text">
+          <p>Donec quam felis, ultricies nec, pretium quis, sem.</p>
+        </div>
+      </article>
+
+      <article class="section-3-article">
+        <div class="s-3-header">
+          <p>Reprehenderit</p>
+        </div>
+        <div class="s-3-img">
+          <img src="./images/section-3/s3-2.jpg" alt="photo">
+        </div>
+        <div class="s-3-text">
+          <p>Donec quam felis sem.</p>
+        </div>
+      </article>
+
+      <article class="section-3-article">
+        <div class="s-3-header">
+          <p>At cum ducimus</p>
+        </div>
+        <div class="s-3-img">
+          <img src="./images/section-3/s3-3.jpg" alt="photo">
+        </div>
+        <div class="s-3-text">
+          <p>Donec quam felis, ultricies nec, pretium quis, sem.</p>
+        </div>
+      </article>
+
+      <article class="section-3-article">
+        <div class="s-3-header">
+          <p>Est tempore</p>
+        </div>
+        <div class="s-3-img">
+          <img src="./images/section-3/s3-4.jpg" alt="photo">
+        </div>
+        <div class="s-3-text">
+          <p>Donec quam felis, ultricies nec.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="main-aside-1">
+      <div class="aside-1-container">
+
+        <article class="aside-article">
+          <h1>Faucibus Dolor</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-1.jpg" alt="photo">
+          </div>
+          <p>Enium unde voluptas perspi ciatis praese velit. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>Et Venenatis</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-2.jpg" alt="photo">
+          </div>
+          <p>Donec eu arcu conse quat velit mattis tempus. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>Ut Mollis Arcu</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-3.jpg" alt="photo">
+          </div>
+          <p>Nam at purus gravida, rutrum elit viverra, cursus nunc. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>Tristique Nulla</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-4.jpg" alt="photo">
+          </div>
+          <p>Nam imperdiet cursus lorem, sit amet pulvinar tellus. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>In Luctus Sem</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-5.jpg" alt="photo">
+          </div>
+          <p>Donec lacinia mollis euis quat velit. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>Duis Euismod</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-6.jpg" alt="photo">
+          </div>
+          <p>Mauris vulputate diam ac imperdiet laoreet. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>Felis Eu</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-7.jpg" alt="photo">
+          </div>
+          <p>Nunc in biben risus. Donec eu placerat nisl. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>Dui Consequat</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-8.jpg" alt="photo">
+          </div>
+          <p>Vesti mi felis, solli citudin quis iaculis sit amet, tincidunt vehicula elit. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>Ipsum Vel Urna</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-9.jpg" alt="photo">
+          </div>
+          <p>Mauris ipsum odio, dignissim quis nisi non, gravida aliquet mi. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>Pulvinar Erat</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-10.jpg" alt="photo">
+          </div>
+          <p>Nam euismod nunc imperdiet felis elementum, nec odio laoreet. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>Sodales Turpis</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-11.jpg" alt="photo">
+          </div>
+          <p>Sed eleifend massa quis luctus malesuada. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>Lacus Non Sem</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-12.jpg" alt="photo">
+          </div>
+          <p>Nunc com orci massa, non feugiat tortor tristique in. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>Amet a Eros</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-13.jpg" alt="photo">
+          </div>
+          <p>Cras sit amet vesti bulum neque. Sed semper ornare tincid. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <h1>Suscipit Diam</h1>
+          <div class="aside-article-img">
+            <img src="./images/aside-1/a-14.jpg" alt="photo">
+          </div>
+          <p>Nunc tristique lacus sed nibh faucibus iaculis. </p>
+          <div class="aside-article-gradient"></div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="main-aside-2">
+      <div class="aside-2-container">
+
+        <article class="aside-article">
+          <div class="aside-article-square"></div>
+          <p>Aenean eu ipsum vitae dui facilisis cursus dignissim vitae odio. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <div class="aside-article-square"></div>
+          <p>Fusce efficitur ipsum eget diam vestibulum vestibulum. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <div class="aside-article-square"></div>
+          <p>Vestibulum nec lacus non sem pellentesque viverra sit amet a eros. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <div class="aside-article-square"></div>
+          <p>Phasellus eu pulvinar erat, sed sodales turpis. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <div class="aside-article-square"></div>
+          <p>Duis euismod, felis eu dignissim condimentum, tortor dui consequat quam. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <div class="aside-article-square"></div>
+          <p>In facilisis tristique nulla a euismod. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <div class="aside-article-square"></div>
+          <p>Quisque faucibus dolor mi, et venenatis sapien tincidunt sit amet. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <div class="aside-article-square"></div>
+          <p>Pellentesque libero ligula, efficitur vitae tristique sed, maximus a eros. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <div class="aside-article-square"></div>
+          <p>Nam mollis sagittis massa a tincidunt. Integer ante tortor. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <div class="aside-article-square"></div>
+          <p>Sed nec ipsum quis erat porttitor vulputate sollicitudin id sapien. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <div class="aside-article-square"></div>
+          <p>Aliquam ullamcorper, risus non gravida lobortis. </p>
+          <div class="aside-article-gradient"></div>
+        </article><hr>
+
+        <article class="aside-article">
+          <div class="aside-article-square"></div>
+          <p>Maecenas vitae nulla condimentum, dapibus tortor at, aliquam libero. </p>
+          <div class="aside-article-gradient"></div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <article id="footer-article-1">
+      <h3>Enium unde voluptas perspiciatis praesentium velit.</h3>
+      <p>Aenean commodo ligua eget dolor.</p>
+    </article>
+
+    <article id="footer-article-2">
+      <hr>
+      <div id="footer-article-2-container">
+
+        <div class="footer-article-2-item">
+          <div class="footer-item-img">
+            <img src="./images/footer/f-1.jpg" alt="photo">
+          </div>
+          <div class="footer-item-text">
+            <p><b>Eveniet Qui</b></p>
+            <p><i>"... ipsum dolor sit amet consectetur adipisicing elit ..."</i></p>
+          </div>
+        </div>
+
+        <div class="footer-article-2-item">
+          <div class="footer-item-img">
+            <img src="./images/footer/f-2.jpg" alt="photo">
+          </div>
+          <div class="footer-item-text">
+            <p><b>Est J Tempore</b></p>
+            <p><i>"... unde voluptas perspiciatis praesentium velit ..."</i></p>
+          </div>
+        </div>
+
+        <div class="footer-article-2-item">
+          <div class="footer-item-img">
+            <img src="./images/footer/f-3.jpg" alt="photo">
+          </div>
+          <div class="footer-item-text">
+            <p><b>Possimus Nisi</b></p>
+            <p><i>"... aspernatur cupiditate natus harum temporibus voluptatem vero ..."</i></p>
+          </div>
+        </div>
+
+        <div class="footer-article-2-item">
+          <div class="footer-item-img">
+            <img src="./images/footer/f-4.jpg" alt="photo">
+          </div>
+          <div class="footer-item-text">
+            <p><b>Aspernatur Harum</b></p>
+            <p><i>"... deserunt maxime repudiandae tempora aliquid nemo veritatis ..."</i></p>
+          </div>
+        </div>
+
+        <div class="footer-article-2-item">
+          <div class="footer-item-img">
+            <img src="./images/footer/f-5.jpg" alt="photo">
+          </div>
+          <div class="footer-item-text">
+            <p><b>Nisi Tempore</b></p>
+            <p><i>"... sociis natoque panatibus et magnis parturient ..."</i></p>
+          </div>
+        </div>
+
+        <div class="footer-article-2-item">
+          <div class="footer-item-img">
+            <img src="./images/footer/f-6.jpg" alt="photo">
+          </div>
+          <div class="footer-item-text">
+            <p><b>Harum Eos Ut</b></p>
+            <p><i>"... ipsa dicta dolorem a quibusdam eum quasi vel nobis dolores ..."</i></p>
+          </div>
+        </div>
+        
+      </div>
+      <hr>
+    </article>
+
+    <article id="footer-article-3">
+      <div id="footer-logo">
+        <a href="#header-main">
+          <h1>LOREM IPSUM</h1>
+          <hr>
+          <h2>Dolor Sit Amet Consectetur Adipisicing Elit</h2>
+        </a>
+      </div>
+      <div>
+        <p>&copy; 2023<br>Volodymyr Kulyk</p>
+      </div>
+    </article>
+
+    <script src="./script/header.js"></script>
+    <script src="./script/modal.js"></script>
+    <script src="./script/theme.js"></script>
+
+  </footer>
+
+</body>
+</html>

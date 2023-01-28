@@ -1,0 +1,35 @@
+:root {
+    --body-bg-color: #d0d9db;
+    --section-shadow-color: #555;
+
+    /* ----- Header and Footer start ----- */
+    --hf-bg-color1: #385361;
+    --hf-bg-color2: #436374;
+    --hf-bg-color3: #436374;
+    --hf-text-color1: #fff;
+    --hf-text-color2: #ccc;
+    /* ----- Header and Footer end ------- */
+
+    /* ----- Main Section 1 start -------- */
+    --s1-bg-color1: #eee6de;
+    --s1-text-color1: #000;
+    --s1-color1: #c7bdb6;
+    /* ----- Main Section 1 end ---------- */
+
+    /* ----- Main Section 2 start -------- */
+    --s2-bg-color1: #d4c1aa;
+    --s2-text-color1: #000;
+    /* ----- Main Section 2 end ---------- */
+
+    /* ----- Main Section 3 start -------- */
+    --s3-bg-color1: #99856c;
+    --s3-text-color1: #fff;
+    /* ----- Main Section 3 end ---------- */
+
+    /* ----- Main Aside start ------------ */
+    --a-bg-color1: #577888;
+    --a-text-color1: #fff;
+    --a-color1: #a1b4bd;
+    --a-color2: #eee6de;
+    /* ----- Main Aside end -------------- */
+}
